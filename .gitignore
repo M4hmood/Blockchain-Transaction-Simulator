@@ -1,0 +1,7 @@
+# JetBrains IDEs
+.idea/
+*.iml
+
+# build folders
+cmake-build-debug/
+cmake-build-release/

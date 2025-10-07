@@ -281,7 +281,7 @@ int main() {
 
     while (1) {
         print_menu();
-        printf("\nEnter command: ");
+        printf("\nEnter command: \n");
         char cmd[32];
         if (!fgets(cmd, sizeof(cmd), stdin)) break;
         // trim newline and spaces
